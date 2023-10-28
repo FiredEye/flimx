@@ -28,8 +28,8 @@ Follow these steps to get the project up and running on your local machine.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/movie-explorer.git
-   cd movie-explorer
+   git clone https://github.com/FiredEye/flimx.git
+   cd flimx
    ```
 
 2. Install dependencies:
