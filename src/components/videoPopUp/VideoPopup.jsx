@@ -1,6 +1,6 @@
 import "./videoPopup.scss";
 
-const VideoPopup = ({ show, setShow, videoId, setVideoId }) => {
+const VideoPopUp = ({ show, setShow, videoId, setVideoId }) => {
   const hidePopup = () => {
     setShow(false);
     setVideoId(null);
@@ -27,4 +27,4 @@ const VideoPopup = ({ show, setShow, videoId, setVideoId }) => {
   );
 };
 
-export default VideoPopup;
+export default VideoPopUp;

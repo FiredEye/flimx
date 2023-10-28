@@ -12,7 +12,7 @@ import CircleRating from "../../../components/circleRating/CircleRating";
 import Image from "../../../components/lazyLoadImage/Image";
 import PosterFallback from "../../../assets/no-poster.png";
 import { PlayIcon } from "../PlayIcon";
-import VideoPopup from "../../../components/videoPopUp/VideoPopUp";
+import VideoPopUp from "../../../components/videoPopUp/VideoPopUp";
 
 const DetailsBanner = ({ video, crew }) => {
   const [show, setShow] = useState(false);
@@ -149,7 +149,7 @@ const DetailsBanner = ({ video, crew }) => {
                     )}
                   </div>
                 </div>
-                <VideoPopup
+                <VideoPopUp
                   show={show}
                   setShow={setShow}
                   videoId={videoId}
